@@ -1,6 +1,6 @@
 # Internet Shop v1
 ### Its my first try creating big project with MicroServices Architecture
-#### Project using gRPC and REST API methods,for authorization and authefication using JWT.
+#### Project using gRPC and REST API methods,for authorization and authefication using JWT
 #### SQL - PostgreSQL
 
 ![SchemaProject](SchemaProject.png)
