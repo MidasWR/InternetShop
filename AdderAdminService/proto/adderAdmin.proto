@@ -1,0 +1,12 @@
+syntax="proto3";
+package adderAdmin;
+service AdderAdmin{
+  rpc AddAdmin(id) returns (ok);
+  rpc DeleteAdmin(id) returns (ok);
+}
+message id{
+  int32 id =1;
+}
+message ok{
+  bool ok=1;
+}

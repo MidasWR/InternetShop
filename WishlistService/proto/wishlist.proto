@@ -1,0 +1,23 @@
+syntax="proto3";
+package wishlist;
+service wishlist{
+  rpc AddToWishlist(id) returns (ok);
+  rpc DeleteFromWishlist(id) returns (ok);
+  rpc GetWishlist(Empty) returns(Response);
+}message Empty{}
+message Item {
+  int32 id = 1;
+  string name = 2;
+  string type = 3;
+  int32 amount = 4;
+  float cost = 5;
+}
+message id{
+  int32 id =1;
+}
+message ok{
+  bool ok=1;
+}
+message Response{
+  repeated Item items = 1;
+}
