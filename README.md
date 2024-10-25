@@ -6,6 +6,8 @@ This project utilizes gRPC and REST API methods for authorization and authentica
 
 ![Schema Project](SchemaProject.png)
 
+**Note:** Typo corrected: `Left AdderAdmin:=AdderToCatalog`
+
 ---
 
 ### Description of Services
